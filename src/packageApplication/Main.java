@@ -1,5 +1,7 @@
-public class App {
+package packageApplication;
+
+public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
     }
 }
