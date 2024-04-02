@@ -40,6 +40,7 @@ public class Main {
             System.out.println("Error in reservation: " + e.getMessage());
         } catch (RuntimeException e) {
             System.out.println("UNEXPECTED ERROR");
+            e.getStackTrace();
         }
 
         leitor.close();
